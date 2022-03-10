@@ -4,7 +4,7 @@ public class Car {
     private String kolor;
     private int rokProdukcji;
 
-    public Car(String marka, String kolor, int rokProdukcji){
+    public Car(String marka, String kolor, int rokProdukcji) {
         this.marka = marka;
         this.kolor = kolor;
         this.rokProdukcji = rokProdukcji;
@@ -25,3 +25,4 @@ public class Car {
         this.kolor=kolor;
     }
 }
+

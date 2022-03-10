@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        Car car1 = new Car("Opel", "Czerwony", 1999);
-        Car car2 = new Car("bmw", "czarny", 2000);
-        Car car3 = new Car("skoda", "biały", 2020);
+        Account user = new Account("Maciej", "Jach", 10000, 1);
 
-        System.out.println(car1.toString());
-        System.out.println(car1.getKolor());
-        car1.setKolor("czarny");
-        System.out.println(car1.toString());
+        System.out.println(user.getBalance());
+        user.withdrawal(15);
+        System.out.println(user.getBalance());
+
     }
+
+
 }
